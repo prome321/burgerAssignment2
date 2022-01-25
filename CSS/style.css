@@ -1,0 +1,521 @@
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a
+{
+	text-decoration: none
+}
+.container
+{
+	width:1140px;
+	margin: 0px auto;
+}
+header
+{
+	width:100%;
+	padding: 40px 0px;
+	position: absolute;
+
+}
+.navbar
+{
+	display: flex;
+	justify-content: space-between;
+}
+.top-contact
+{
+	margin-bottom: 20px;
+}
+.top-contact span
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color:#3d2514;
+
+}
+.top-contact img
+{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.menus ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+.nav-menu
+{
+	text-align: right;
+}
+.menus ul li a
+{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#3d2514;
+	letter-spacing: 2px;
+
+}
+/*Banner Section*/
+.banner
+{
+	width: 100%;
+	padding: 140px 0px;
+	background-image: url(../Images/background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-content
+{
+	display:flex;
+
+}
+.banner-left
+{
+	flex-basis: 50%;
+	margin-top: 80px;
+}
+.banner-right
+{
+	flex-basis: 50%;
+}
+.banner-right img
+{
+	width: 100%;
+}
+.banner-left span
+{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 23px;
+	color:#3d2514;
+	border:2px dashed #3d2514;
+	padding: 2px 6px;
+}
+.banner-left h1
+{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 1px;
+	text-shadow: 3px 5px #f7f7f7;
+}
+.banner-left h2
+{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	text-transform: uppercase;
+	color: #3d2514;
+	letter-spacing: 2px;
+	text-shadow: 2px 3px #f7f7f7;
+} 
+.f-content
+{
+	display: flex;
+	justify-content: space-between;
+}
+.Features
+{
+	width:100%;
+	padding: 100px 0px;
+}
+.f-left
+{
+	margin-right: 20px;
+}
+.f-right
+{
+	margin-right: 20px;
+
+}
+.f-content img
+{
+	width:100%;
+	height:auto;
+}
+.b-item
+{
+	position:relative;
+}
+.b-content
+{
+	position: absolute;
+	top:30px;
+	left:30px;
+}
+.b-content h3
+{
+	font-size: 25px;
+	color:white;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+
+
+}
+.b-content h2
+{
+	font-size: 42px;
+	color:white;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-weight:500;
+
+}
+.b-more
+{
+	line-height: 38px;
+}
+.burger
+{
+	width: 100%;
+}
+.button-image
+{
+	align-items: center;
+	text-align: center;
+}
+.button-image button
+{
+	padding: 10px 20px;
+	
+	margin-bottom: 20px;
+	background-color: #FFC33B;
+	border:none;
+}
+.button-image a
+{
+	font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+	color:#3d2514;
+}
+.button-image h1
+{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	color:#3d2514;
+	text-transform: uppercase;
+}
+.button-image p
+{
+	
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+color:#4A260D;
+line-height: 30px;
+margin-bottom: 50px;
+
+}
+.burger-image
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+
+}
+.burger-image h2
+{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 37px;
+	text-align: center;
+	color:#3d2514;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+.burger-image p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color:#4A260D;
+}
+.burger-image button
+{
+	margin-top: 10px;
+	background-color: transparent;
+	padding: 10px 30px;
+	border:2px solid red;
+	margin-top: 40px;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 400;
+	cursor: pointer;
+	z-index: 999;
+	color: red;
+	
+}
+.burger-image a
+{
+	text-align: center;
+	z-index: -1;
+	font-size: 16px;
+	
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	
+	
+}
+.burger-image button:before
+{
+		content: '';
+		position: absolute;
+		left :0;
+		top:0;
+		bottom:0;
+		width:0%;
+		background-color: red;
+		transition: 0.5s;
+		z-index: -1 ;
+		
+	}
+.burger-image button:hover:before
+{
+	width: 100%;
+	z-index: -1;
+
+}
+.burger-image button:hover
+{
+	color: white;
+
+
+}
+.events
+{
+	width: 100%;
+	padding: 60px 0px;
+}
+.burger-events
+{
+	display: flex;
+	justify-content: space-between;
+
+	
+}
+.e-left
+{
+	flex-basis: 50%;
+}
+.e-right
+{
+	flex-basis: 50%;
+}
+.e-right img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+.e-left h4
+{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	margin-top: 100px;
+	color:#3d2514;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.e-left h2
+{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 41px;
+	color:#3d2514;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.burger-events p
+{
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.x-box
+{
+	padding:16px 16px 12px 16px;
+	box-shadow: 5px 5px 10px rgb(0 0 0 / 10%);
+}
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    display: none;
+}
+.owl-theme .owl-dots
+{
+	position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc33b;
+}
+.back-image img
+{
+	width:100%;
+	position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:auto;
+
+	
+}
+.back-image
+{
+	position: relative;
+}
+.back
+{
+	position: absolute;
+	top:50px;
+	left:250px;
+	align-items: center;
+	text-align: center;
+
+}
+.back h4
+{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 29px;
+	text-align: center;
+	color:#3d2514;
+}
+.back h1
+{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	text-transform: uppercase;
+	color:#3d2514;
+	margin-bottom: 40px;
+}
+.input-type
+{
+	margin-bottom: 20px;
+
+}
+.back-input
+{
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-right: 100px;
+}
+.event-type
+{
+	width: 100%;
+
+}
+::placeholder
+{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	padding-left: 10px;
+
+}
+.type
+{
+	background-color: red;
+	color: white;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 12px;
+	border:none;
+	text-align: center;
+
+
+}
+.input-type input
+{
+	margin-right: 10px;
+}
+.last
+{
+	position:relative;
+}
+.group-image img
+{
+
+	width:100%;
+	position: center;
+	background-position: cover;
+	background-repeat: no-repeat;
+	height:auto;
+	
+}
+.lasting
+{
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 50%;
+	
+	position:absolute;
+	top:50px;
+	left:30px;
+
+
+
+}
+.t-type
+{
+	color:#FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+	line-height: 2;
+}
+
+.l-img 
+{
+	color: #FFFFFF;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	margin-left: 300px;
+	margin-top: 200px;
+
+}
+.p-type
+{
+	    padding-top: 120px;
+	    font-family: 'Bebas Neue', cursive;
+	    color: #FFFFFF;
+	    font-size: 16px;
+}
+.l-img ul li
+{
+	list-style: none;
+
+
+}
+.l-img ul li i
+{
+	  margin-right: 20px;
+}
+
+
+.list ul li a i
+{
+	color: white;
+    margin-top: 100px;
+    width:25px;
+    height: 22px;
+    background-color: white;
+    border-radius: 100%;
+    border:1px solid white;
+    align-items: center;
+    text-align: center;
+    color: black;
+	
+}
+.list ul li
+{
+	margin-left: 200px;
+
+}
+
